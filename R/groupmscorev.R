@@ -32,7 +32,7 @@
 #' raw[1:(I/2)] = 5*rnorm(n = I/2)+effect_1
 #' raw[(1+I/2):I] = rnorm(n = I/2)+effect_2
 
-#' # 2. Generate baseline parameters
+#' # 2. Generate the scores
 #' trimmed_default <- groupmscorev(raw,cmat)
 #'
 
