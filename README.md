@@ -45,8 +45,9 @@ trimmed_default <- groupmscorev(raw,cmat)
 
 Then, the score is ready for conducting sensitivity analysis that involves subgroup comparisons and one may want to use the `submax` package by calling `submax(groupmscore,cmat,gamma = Gamma)`.
 
-##Reference
+## Reference
 Please cite the following paper if you want to use the package:
 > Fan, Y. and Small, D. (2026). *A subgroup-aware scoring approach to the study of effect modification in observational studies.* Observational Studies.
+
 The submax method is implemented in the `submax` package and is detailed in the following paper:
 > Lee, K., Small, D.S. and Rosenbaum, P.R. (2018), *A powerful approach to the study of moderate effect modification in observational studies.* Biometrics.
